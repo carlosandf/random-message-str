@@ -1,0 +1,33 @@
+{
+  "name": "random-message-str",
+  "version": "1.0.0",
+  "description": "Random String Message",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carlosandf/random-message-str.git"
+  },
+  "keywords": [
+    "Random",
+    "Message",
+    "String"
+  ],
+  "author": "Carlos Florez <carlos.andres.ff2912@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/carlosandf/random-message-str/issues"
+  },
+  "homepage": "https://github.com/carlosandf/random-message-str#readme",
+  "dependencies": {
+    "node-fetch": "^3.2.10",
+    "npm": "^8.19.2"
+  },
+  "bin": {
+    "random-message-str": "./bin/global.js"
+  },
+  "preferGlobal": true,
+  "type": "module"
+}
